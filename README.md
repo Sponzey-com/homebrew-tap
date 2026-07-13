@@ -9,9 +9,11 @@ Install DevEnv:
 ```sh
 brew install sponzey-com/tap/devenv
 devenv init zsh --write
+exec zsh -l
 ```
 
-Use `devenv init bash --write` when Bash is the login shell.
+When Bash is the login shell, run `devenv init bash --write` followed by
+`exec bash -l` instead.
 
 After the tap has been added, DevEnv can be managed by its short formula name:
 
