@@ -1,30 +1,30 @@
 class Devenv < Formula
   desc "CLI-based development environment manager"
   homepage "https://github.com/Sponzey-com/DevEnv"
-  version "0.1.30"
+  version "0.1.31"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.30/devenv-0.1.30-aarch64-apple-darwin.tar.gz"
-      sha256 "bd6b4f933298f2aade1334a6b37a7990c2cded342d82a44ceb72bfd02892f69e"
+      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.31/devenv-0.1.31-aarch64-apple-darwin.tar.gz"
+      sha256 "40b63d439ce99b4ed783146c1019fc318c5b4d85121d3640e761464b7d7f5b27"
     end
 
     on_intel do
-      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.30/devenv-0.1.30-x86_64-apple-darwin.tar.gz"
-      sha256 "26863ed94685bdecfc94b7ec1007f0db20cacccc165764e1dfffa8bc11dc5b0c"
+      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.31/devenv-0.1.31-x86_64-apple-darwin.tar.gz"
+      sha256 "814350c91d8d3bc146c0d52d22628e3aa92c35ac2081798725c80df5e35669e7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.30/devenv-0.1.30-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "790e10f393625aa949494f66a20a9f46ce9a585065b8d6037cf7cfc8397c7cf7"
+      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.31/devenv-0.1.31-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "9a386f9c27aa3ae0c713e6c28c83ce218f1f8f45a40a96f0e733b2c49c13d348"
     end
 
     on_intel do
-      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.30/devenv-0.1.30-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "b0cbc17e200cb7ca4c23bca5ea93e08e0d2acdcac910a99c21149c0b5c8be2b4"
+      url "https://github.com/Sponzey-com/DevEnv/releases/download/v0.1.31/devenv-0.1.31-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "8ff3e17c93e7729557c136249a8fd27eea2d1b2ae4367071bd21bddf563f20c4"
     end
   end
 
