@@ -8,8 +8,10 @@ Install DevEnv:
 
 ```sh
 brew install sponzey-com/tap/devenv
-devenv init
+devenv init zsh --write
 ```
+
+Use `devenv init bash --write` when Bash is the login shell.
 
 After the tap has been added, DevEnv can be managed by its short formula name:
 
