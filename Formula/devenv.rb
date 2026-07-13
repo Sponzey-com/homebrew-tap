@@ -33,6 +33,20 @@ class Devenv < Formula
     doc.install "USER_GUIDE.md"
   end
 
+  def caveats
+    <<~EOS
+      Complete the one-time shell setup after installation.
+
+      For zsh:
+        devenv init zsh --write
+        exec zsh -l
+
+      For Bash:
+        devenv init bash --write
+        exec bash -l
+    EOS
+  end
+
   test do
     assert_match "devenv #{version}", shell_output("#{bin}/devenv --version")
   end
